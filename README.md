@@ -56,3 +56,16 @@ Rotas:
 ### Importação CSV
 
 Ao rodar o comando `node src/Utils/import-csv.js`  é possível processar em stream um arquivo  csv para cada linha, realizando uma requisição para a rota `POST - /tasks`, passando os campos necessários do endpoint.
+
+### Como executar
+
+```tsx
+# Versão Node
+18.14.1 LTS https://nodejs.org/en/
+
+# Intalar dependência
+yarn
+
+# Executar comando
+yarn dev
+```
